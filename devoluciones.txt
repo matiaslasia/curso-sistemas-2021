@@ -3,10 +3,28 @@ Bloque 1/2/3
 
 Edición mediante el inspeccionador: OK
 
-Formulario GET/POST: Muy buen uso de los elementos HTML.
-Los atributos id no son necesarios para esta actividad. Pero nos van a servir.
-Buen uso de atributos adicionales.
+Formulario GET: La estructura del HTML está muy bien, el resultado final es correcto.
+Algunas cuestiones para tener en cuenta:
+
+Los atributos id no son necesarios para esta actividad. Pero nos van a servir en breve.
+
 <leyend> es <legend>
+
+<form action="http://localhost/curso-sistemas-2021/Bloque%203/FormularioPost.html"Method="post"
+Fijate que el atributo es method y debe estar separado del valor del atributo anterior.
+
+En varias partes figura un elemento oculto, que quizás sea una cuestión del editor que estés usando.
+
+Los label: <label for"fname">Nombre</label>
+Les faltaría un = y quedar así:  for="fname".
+
+Formulario POST: También, la estructura general está muy bien y el resultado es correcto.
+Cuestiones para tener en cuenta:
+Lo mismo que en el formulario GET, el atributo es method y tiene que estar separado.
+Aparecen también elementos ocultos y caracteres raros dispersos.
+En los lugares que se utilizó <legend> iría <label>.
+
+
 
 Calculadora: OK. Buen uso del atributo style.
 
