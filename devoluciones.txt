@@ -1,0 +1,16 @@
+Bloque 1/2/3
+============
+
+Edición mediante el inspeccionador: OK
+
+Formulario GET/POST: Muy buen uso de los elementos HTML.
+Los atributos id no son necesarios para esta actividad. Pero nos van a servir.
+Buen uso de atributos adicionales.
+<leyend> es <legend>
+
+Calculadora: OK. Buen uso del atributo style.
+
+Manejo de GIT: OK
+
+En todas las actividades: El identado de código hay que dejarlo fijo, usar tabuladores o espacios y en la misma cantidad en lo posible.
+
