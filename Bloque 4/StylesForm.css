@@ -1,0 +1,30 @@
+.formato1
+{
+    color: rgb(0, 0, 0);
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 168%;
+}
+.Radio
+{
+    border: 0px;
+    width: 4%;
+    height: 2em;
+}
+
+.Check
+{
+    border: 0px;
+    width: 3%;
+    height: 2em;
+}
+
+.formato2
+{
+    color: rgb(0, 0, 0);
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+
