@@ -27,4 +27,13 @@
     font-size: 150%;
 }
 
+.slider {
+  -webkit-appearance: none;
+  width: 60%;
+  height: 25px;
+  background: teal;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
 
