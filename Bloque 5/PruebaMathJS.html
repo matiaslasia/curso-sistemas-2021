@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html>
+
+
+    <head>
+       <meta charset="utf-8" /> 
+       <title>Prueba_JS</title>
+    
+    </head>
+
+    <body></body>
+
+        <script type="text/javascript">
+
+
+            //SUSTANTIVOS
+            let precio_lacteos = 89.0;
+            let precio_limpieza = 125.6;
+            let precio_bebida = 9.23;
+            let precio_pan = 74.3;
+            let precio_fiambres = 314.7;
+
+            let lacteos_incremento = 15;
+            let limpieza_incremento = 22.5;
+            let bebidas_incremento = 34;
+            let pan_incremento = 27;
+            let fiambres_incremento = 31.7;
+           
+            //VERBOS
+            Que hace?     
+            function actualizar ( precio_articulo, incremento )
+            
+            {
+                //COMO LO HaCE?-->pueden ser muchas opciones.
+
+                let precio_actualizado = precio_articulo * ( incremento/100 + 1);
+
+                return precio_actualizado; 
+             }
+
+
+            //PROGRAMA
+            precio_lacteos = actualizar(precio_lacteos, lacteos_incremento );
+            precio_limpieza = actualizar(precio_limpieza , limpieza_incremento );
+            precio_bebida = actualizar(precio_bebida, bebidas_incremento );
+            precio_pan = actualizar(precio_pan, pan_incremento  );
+            precio_fiambres = actualizar(precio_fiambres, fiambres_incremento );
+
+
+            console.log(precio_lacteos);
+            console.log(precio_limpieza);
+            console.log(precio_bebida);
+            console.log(precio_pan);
+            console.log(precio_fiambres);
+
+
+        </script>
+</html>  
+
