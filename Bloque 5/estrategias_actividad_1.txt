@@ -1,0 +1,75 @@
+ESTRATEGIA 1
+"Hacer todo con arrays"
+Represento X filas en X posiciones del array
+
+Ej: 5 filas --> [0,1,2,3,4]
+Luego, internamente: Guardo las N columnas en un array interno.
+
+let tabla1 = [ ["leche", 200,280] , ["yogurbebible", 200, 180], ["yogurbebible", 200, 180], ... ];
+
+Si quiero obtener el contenido de calcio de la leche:
+En este caso sería: ---> tabla1[0][2]
+
+-----------
+
+ESTRATEGIA 2
+"Utilizar objetos"
+
+Contenedor de propiedades/valores:
+
+let tabla =
+{
+	leche:
+	{
+		porcion: 200,
+		contenido_calcio: 280
+	},
+	yogur_bebible:
+	{
+		porcion: 200,
+		contenido_calcio: 180
+	},
+	yogur_firme:
+	{
+		porcion: 190,
+		contenido_calcio: 203
+	},
+	queso_rallado:
+	{
+		porcion: 8,
+		contenido_calcio: 104
+	}
+}
+
+Si quiero obtener el contenido de calcio de la leche:
+En este caso sería: ---> tabla.leche.contenido_calcio
+
+-------------
+
+ESTRATEGIA 3
+"Utilizar contenedores mixtos"
+
+let tabla3 = 
+[ 
+	{
+		nombre: "Leche",
+		porcion: 200,
+		contenido_calcio: 280
+	},
+	{
+		nombre: "yogur_bebible",
+		porcion: 200,
+		contenido_calcio: 180
+	},
+	{
+		nombre: "queso_rallado",
+		porcion: 8,
+		contenido_calcio: 104
+	}
+]
+
+Si quiero obtener el contenido de calcio de la leche:
+En este caso sería: ---> tabla3[0].contenido_calcio
+
+------------
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Práctica 0 de programación</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+
+    <body></body>
+
+    <script type="text/javascript">
+
+    //Desarrollar un programa que se encargue de: convertir grados ºC a grados ºF
+    let temperatura_celsius;
+    let temperatura_farenheit;
+
+    //verbos (acciones) --> function
+    function convertir_celsius_a_farenheit( temperatura_en_celsius )
+    {
+    	let resultado_en_farenheit = ( temperatura_en_celsius * 1.8 ) + 32;
+    	
+    	return resultado_en_farenheit;
+    }
+
+    //Escribir el programa (la ejecución)
+    temperatura_celsius = prompt("Ingrese temperatura en grados ºC: ");
+    temperatura_farenheit = null;
+
+    temperatura_farenheit = convertir_celsius_a_farenheit( temperatura_celsius );
+    alert("La temperatura de " + temperatura_celsius + "ºC son " + temperatura_farenheit.toFixed(2) + "ºF");
+
+    </script>
+</html>
+
+

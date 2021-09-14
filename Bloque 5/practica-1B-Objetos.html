@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Práctica de programación Objetos</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+
+    <body></body>
+
+    <script type="text/javascript">
+    
+
+    let tabla =
+    {
+            leche:
+            {
+                porcion: 200,
+                contenido_calcio: 280
+            },
+            yogurt_bebible:
+            {
+                porcion: 200,
+                contenido_calcio: 180
+            },
+            yogurt_firme:
+            {
+                porcion: 190,
+                contenido_calcio: 203
+            },
+            postre:
+            {
+                porcion: 125,
+                contenido_calcio:295
+            },
+           queso_rallado:
+            {
+                porcion: 8,
+                contenido_calcio: 104
+            },
+     };
+
+
+
+         function identificarLacteoDeMayorContenidoDeCalcio( tabla_de_datos )
+
+        {
+            let referencia = null;
+            let nombre_del_lacteo = null;
+
+
+        for ( const nombreDelObjeto in tabla_de_datos)
+        {
+           
+            if ( tabla_de_datos[nombreDelObjeto].contenido_calcio > referencia )
+            {
+            referencia = tabla_de_datos[nombreDelObjeto].contenido_calcio;
+            nombre_del_lacteo = nombreDelObjeto;
+            }
+        }
+      
+        return nombre_del_lacteo;
+       
+    }
+   </script>
+</html>
+
+
