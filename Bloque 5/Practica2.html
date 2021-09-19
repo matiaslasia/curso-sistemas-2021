@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Práctica de programación Combinado</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+
+    <body></body>
+
+    
+<script>
+             //Planteo Objeto puro
+    let tabla_c =
+    {
+        temperaturas_max:[39.3, 38.1, 36.3],
+        temperaturas_min:[13, 7, 8],
+        humedad_relativa:[90, 99, 89]
+    }
+                
+                        function calcular_promedio(conjunto_de_numeros)
+
+                        {
+                            
+                            let suma = 0;
+                            let cantidad_elementos = conjunto_de_numeros.length;
+                            let promedio = null;
+
+                            if ( cantidad_elementos >= 1 )
+
+                            {
+                                for ( let posicion= 0; posicion < cantidad_elementos; posicion++)
+                                {
+                                    suma = suma+conjunto_de_numeros[posicion];
+                                }
+                                    promedio = suma/cantidad_elementos;
+                            }  
+
+
+                            return promedio
+                        }
+
+                       
+
+    function reporte( temp_max, temp_min, hum_rel )
+    {
+        console.log( 'Promedio Tmax = ' + calcular_promedio(temp_max)  + 'ºC');
+        console.log( 'Promedio Tmin = ' + calcular_promedio(temp_min)  + 'ºC');
+        console.log( 'Promedio Humedad Relativa = ' + calcular_promedio(hum_rel) + '%');
+    }
+
+    reporte( tabla_c.temperaturas_max, tabla_c.temperaturas_min, tabla_c.humedad_relativa );
+    
+    
+    </script>
+</html>
+                        
+    </script>
+    
+</html>
+
+
