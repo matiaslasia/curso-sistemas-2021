@@ -1,0 +1,240 @@
+<!DOCTYPE html> 
+<html>
+
+
+ <head>
+   <meta charset="utf-8" /> 
+       <title>Calculadora HTML</title>
+       <link href="Styles.css" rel="stylesheet">
+       <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet">    
+       
+ </head>
+
+      <body>
+			  
+			  
+			<table>
+				   <tr> 
+					   <td colspan="4"><input id= "display" class="visor w3-panel w3-black" type="text" value=""></input>         
+                  </td> 
+				  </tr>
+                   <tr>
+                    <td><button  id="button_7" class=boton-azul>7</button></td>
+                    <td><button  id="button_8" class=boton-azul>8</button></td>
+                    <td><button  id="button_9" class=boton-azul>9</button></td>
+                    <td><button  id="button_plus" class=boton-verde>+</button></td>
+                   </tr>
+                    
+                   <tr>
+			        <td><button  id="button_4" class=boton-azul>4</button></td>
+                    <td><button  id="button_5" class=boton-azul>5</button></td>
+                    <td><button  id="button_6" class=boton-azul>6</button></td>
+                    <td><button  id="button_minus" class=boton-verde>-</button></td>
+                   </tr>
+                    
+                   <tr>
+                      <td><button  id="button_3" class=boton-azul>3</button></td>
+                      <td><button  id="button_2" class=boton-azul>2</button></td>
+                      <td><button  id="button_1" class=boton-azul>1</button></td>
+                      <td><button  id="button_multiply" class=boton-verde>*</button></td>
+                   </tr>
+                    
+                   <tr>
+                    <td><button  id="button_0" class=boton-azul>0</button></td>
+                    <td><button  id="button_dot" class=boton-verde>.</button></td>
+                    <td><button  id="button_equal" class=boton-verde>=</button></td>
+                    <td><button  id="button_division" class=boton-verde>/</button></td>
+                   </tr>
+                    
+                   <tr>
+			        <td colspan="4"><button  id="button_clear" class=boton-rojo>BORRAR</button></td>
+                   </tr> 
+                   
+                    
+         </table>
+			   
+       
+      </body>
+      <script type="text/javascript">
+    
+     
+         let on_click_button_7 = event =>
+         {
+             let display = document.getElementById("display");
+             display.value += '7'
+         }
+     
+         let button_7 = document.getElementById("button_7");
+         button_7.addEventListener('click', on_click_button_7 );
+     
+         let on_click_button_8 = event =>
+         {
+             let display = document.getElementById("display");
+             display.value += '8'
+         }
+     
+         let button_8 = document.getElementById("button_8");
+         button_8.addEventListener('click', on_click_button_8 );
+
+         let on_click_button_9 = event =>
+         {
+             let display = document.getElementById("display");
+             display.value += '9'
+         }
+     
+         let button_9 = document.getElementById("button_9");
+         button_9.addEventListener('click', on_click_button_9 );
+
+         let on_click_button_plus = event =>
+         {
+             let display = document.getElementById("display");
+             display.value += '+'
+         }
+     
+         let button_plus = document.getElementById("button_plus");
+         button_plus.addEventListener('click', on_click_button_plus );
+
+         let on_click_button_4 = event =>
+         {
+             let display = document.getElementById("display");
+             display.value += '4'
+         }
+     
+         let button_4 = document.getElementById("button_4");
+         button_4.addEventListener('click', on_click_button_4 );
+
+         let on_click_button_5 = event =>
+         {
+             let display = document.getElementById("display");
+             display.value += '5'
+         }
+     
+         let button_5 = document.getElementById("button_5");
+         button_5.addEventListener('click', on_click_button_5 );
+
+         let on_click_button_6 = event =>
+         {
+             let display = document.getElementById("display");
+             display.value += '6'
+         }
+     
+         let button_6 = document.getElementById("button_6");
+         button_6.addEventListener('click', on_click_button_6 );
+
+         let on_click_button_minus = event =>
+         {
+             let display = document.getElementById("display");
+             display.value += '-'
+         }
+     
+         let button_minus = document.getElementById("button_minus");
+         button_minus.addEventListener('click', on_click_button_minus );
+
+         let on_click_button_3 = event =>
+         {
+             let display = document.getElementById("display");
+             display.value += '3'
+         }
+     
+         let button_3 = document.getElementById("button_3");
+         button_3.addEventListener('click', on_click_button_3 );
+
+         let on_click_button_2 = event =>
+         {
+             let display = document.getElementById("display");
+             display.value += '2'
+         }
+     
+         let button_2 = document.getElementById("button_2");
+         button_2.addEventListener('click', on_click_button_2 );
+
+         let on_click_button_1 = event =>
+         {
+             let display = document.getElementById("display");
+             display.value += '1'
+         }
+     
+         let button_1 = document.getElementById("button_1");
+         button_1.addEventListener('click', on_click_button_1 );
+
+         let on_click_button_multiply = event =>
+         {
+             let display = document.getElementById("display");
+             display.value += '*'
+         }
+     
+         let button_multiply = document.getElementById("button_multiply");
+         button_multiply.addEventListener('click', on_click_button_multiply );
+
+         let on_click_button_0 = event =>
+         {
+             let display = document.getElementById("display");
+             display.value += '0'
+         }
+     
+         let button_0 = document.getElementById("button_0");
+         button_0.addEventListener('click', on_click_button_0 );
+
+         let on_click_button_dot = event =>
+         {
+             let display = document.getElementById("display");
+             display.value += ','
+         }
+     
+         let button_dot = document.getElementById("button_dot");
+         button_dot.addEventListener('click', on_click_button_dot );
+
+         let on_click_button_division = event =>
+         {
+             let display = document.getElementById("display");
+             display.value += '/'
+         }
+     
+         let button_division = document.getElementById("button_division");
+         button_division.addEventListener('click', on_click_button_division );
+
+         let on_click_button_clear = event =>
+         {
+             let display = document.getElementById("display");
+             display.value = ""
+         }
+     
+         let button_clear = document.getElementById("button_clear");
+         button_clear.addEventListener('click', on_click_button_clear );
+
+
+
+         
+         
+
+
+
+         
+
+
+
+
+
+
+
+         
+
+
+         
+
+         
+
+
+     
+         </script>
+
+</html>  
+
+
+
+
+
+
+
+
+
