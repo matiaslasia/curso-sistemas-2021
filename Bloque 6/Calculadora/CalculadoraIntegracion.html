@@ -202,8 +202,16 @@
          let button_clear = document.getElementById("button_clear");
          button_clear.addEventListener('click', on_click_button_clear );
 
+         
 
-
+         let on_click_button_equal = event =>
+         {
+           let display = document.getElementById("display");
+           display.value= eval(display.value);
+         }
+         
+         let button_equal = document.getElementById("button_equal");
+         button_equal.addEventListener('click', on_click_button_equal );
          
          
 
