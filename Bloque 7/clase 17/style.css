@@ -1,0 +1,363 @@
+able, tr, td
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.temp_40_39
+{
+    background-color: #ce0303;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #ce0303;}
+}
+
+.temp_39_36
+{
+    background-color: #f51c1c;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #f51c1c;}
+}
+
+.temp_36_32
+{
+    background-color: #ff3a3a;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #ff3a3a;}
+}
+
+.temp_32_29
+{
+    background-color: #ec4545;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #ec4545;}
+}
+
+.temp_29_27
+{
+    background-color: #fb7100;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #fb7100;}
+}
+
+.temp_27_24
+
+{
+    background-color: #fa8f03;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #fa8f03;}
+}
+
+.temp_24_20
+{
+    background-color: #f6a944;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #f6a944;}
+}
+
+.temp_20_15
+{
+    background-color: #f6bd00;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #f6bd00;}
+}
+
+.temp_15_12
+{
+    background-color: #ecab41;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #ecab41;}
+}
+
+.temp_12_9
+{
+    background-color: #ebbb36;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #ebbb36;}
+}
+
+
+.temp_9_5
+{
+    background-color: #ebb373;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #ebb373;}
+}
+
+.temp_5_1
+{
+    background-color: #faf4ba;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #faf4ba;}
+}
+
+.temp_1_-3
+{
+    background-color: #80e4fd;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #80e4fd;}
+}
+
+.temp_-3_-5
+{
+    background-color: #009ffb;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #009ffb;}
+}
+
+.temp_-5_-8
+{
+    background-color: #1c73c5;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #1c73c5;}
+}
+
+.temp_-8_-10
+{
+    background-color: #562cb9;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #562cb9;}
+}
+
+
+.precip_110_104
+{
+    background-color: #4f0b9c;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #4f0b9c;}
+}
+.precip_104_70
+{
+    background-color: #8447ca;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #8447ca;}
+} 
+.precip_70_54
+{
+    background-color: #9b6ccf;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #9b6ccf;}
+}
+.precip_54_50
+{
+    background-color: #bca2da;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+
+    animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test
+{
+  0%   {background-color: #ffffff;}
+  100% {background-color: #bca2da;}
+}
+
+
+.humedad_relativa
+{
+  background-color: #110dff;
+  font-family: arial;
+  font-size: 11px;
+  font-weight: bold;
+
+  animation-name: test;
+animation-duration: 3s;
+}
+
+@keyframes test
+{
+0%   {background-color: #ffffff;}
+100% {background-color: #110dff;}
+}
