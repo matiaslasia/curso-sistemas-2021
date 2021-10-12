@@ -1,7 +1,15 @@
-able, tr, td
+table, tr, td
 {
-	border: 1px solid black;
-	border-collapse: collapse;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 5px;
+  padding: 5px;
+}
+.table_font
+{
+  font-family: arial;    
+  font-weight: bold;
 }
 
 .temp_40_39
@@ -10,9 +18,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -27,9 +32,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -44,9 +46,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -61,9 +60,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -78,9 +74,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -96,9 +89,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -113,9 +103,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -130,9 +117,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -147,9 +131,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -164,9 +145,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -182,9 +160,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -199,9 +174,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -216,9 +188,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -233,9 +202,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -250,9 +216,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -267,9 +230,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -285,9 +245,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -301,9 +258,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -317,9 +271,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -333,9 +284,6 @@ able, tr, td
     font-family: arial;
     font-size: 11px;
     font-weight: bold;
-
-    animation-name: test;
-	animation-duration: 3s;
 }
 
 @keyframes test
@@ -352,8 +300,8 @@ able, tr, td
   font-size: 11px;
   font-weight: bold;
 
-  animation-name: test;
-animation-duration: 3s;
+  
+animation-duration: 1ms;
 }
 
 @keyframes test
