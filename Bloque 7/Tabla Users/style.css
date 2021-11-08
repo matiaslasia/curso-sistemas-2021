@@ -1,0 +1,12 @@
+table, td, tr
+{
+	border: 2px solid grey;
+	border-collapse: collapse;
+	font-family:  Tahoma, Verdana, sans-serif;
+}
+
+.fuente2 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #4CAF50;
+  }
