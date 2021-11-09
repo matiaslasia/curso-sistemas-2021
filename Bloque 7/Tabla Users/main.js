@@ -1,11 +1,14 @@
 let showUserTable = ( userTable ) =>
 {
-    let HTMLCode = `<table class= "w3-table-all w3-centered fuente1 negrita" style="width:40%">`
+    let HTMLCode = `<table class= "w3-table-all w3-centered " style="width:40%">`
 
     for ( let row=0; row<userTable.length; row++)
     {
+       
+       
+        
         HTMLCode += `<tr>`;
-
+        
         for (let column=0; column<userTable[row].length; column++)
         {
             HTMLCode += `<td>${userTable[row][column]}</td>`;
@@ -14,7 +17,9 @@ let showUserTable = ( userTable ) =>
         if ( row == 0 )
         {
             HTMLCode += `<td>ACTIONS</td>`;
+           
         }
+
         else
         {
             HTMLCode += `<td>
@@ -24,9 +29,10 @@ let showUserTable = ( userTable ) =>
         }
 
 
-        HTMLCode += `</tr>` ;                                   
+        HTMLCode += `</tr>` ;     
+
     }                      
-                        
+    
     HTMLCode += `</table>`;
     HTMLCode += `<button class="w3-button w3-round-xlarge w3-orange">Nuevo Usuario</button>`;
     return HTMLCode;

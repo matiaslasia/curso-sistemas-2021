@@ -5,8 +5,10 @@ table, td, tr
 	font-family:  Tahoma, Verdana, sans-serif;
 }
 
-.fuente2 {
-	text-align: center;
-	text-transform: uppercase;
-	color: #4CAF50;
-  }
+
+.encabezado-tabla
+{
+font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
